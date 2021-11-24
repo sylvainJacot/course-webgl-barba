@@ -2,13 +2,31 @@
   "name": "course-webgl-barba",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/sylvainJacot/course-webgl-barba.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylvainJacot/course-webgl-barba/issues"
+  },
+  "homepage": "https://github.com/sylvainJacot/course-webgl-barba#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.64.3",
+    "webpack-dev-server": "^4.5.0"
+  },
   "devDependencies": {
-    "parcel": "^2.0.1"
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-cli": "^4.9.1"
   }
 }
